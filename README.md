@@ -42,7 +42,7 @@ The toolkit is python 3 compatible and can also be imported as a library.
 ```
 from ducktoolkit import encoder
 
-duck_text = 'STRING Hello'
+duck_text = b'STRING Hello'
 language = 'gb'
 duck_bin = encoder.encode_script(duck_text, language)
 ```
